@@ -21,6 +21,7 @@ export default class App extends React.Component {
       phonicSounds: [],
     };
   }
+
   render() {
     return (
       <View style={styles.container}>
@@ -31,6 +32,7 @@ export default class App extends React.Component {
             style: { color: '#fff', fontSize: 20 },
           }}
         />
+
 
         <Image
           style={styles.imageIcon}
